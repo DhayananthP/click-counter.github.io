@@ -1,0 +1,25 @@
+html {
+font-family: 'Oswald';
+font-size: 10px;
+background-color:  #ccffcc;
+}
+body{
+	width: 600px;
+	padding:20px;
+	border: 3px solid black;
+	background-color: #00e600;
+	margin: 0 auto;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+h1{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 60px;
+}
+
+p{
+font-size: 16px;
+}
