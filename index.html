@@ -3,18 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <link href="styles/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
       rel="stylesheet"
     />
     <title>Counter</title>
-    <meta title="description" content="Useful for counting purpose">
+    <meta title="description" content="Useful for counting purpose" />
   </head>
   <body>
-    <h1 id="heading">Click to count..</h1>
-    <div id="reset">
-      <button id="reset" onclick="reset()">Reset</button>
-      <script src="scricpts/scripts.js"></script>
-    </div>
+    <header>
+      <h1 id="heading">Click or Touch to count..</h1>
+    </header>
+    <main>
+      <section>
+        <p id="count">0</p>
+      </section>
+      <section class="btn-section">
+        <button class="btn" id="reset" onclick="reset()">Reset</button>
+        <button class="btn" id="add" onclick="addNumber()">Add</button>
+        <button class="btn" id="minus" onclick="minusNumber()">Reduce</button>
+        <label class="btn">
+          IncreaseBy -
+          <input class="btn" id="increaseBy" min="1" type="number" max="500s" />
+        </label>
+      </section>
+    </main>
+    <script src="scricpts/scripts.js"></script>
   </body>
 </html>
